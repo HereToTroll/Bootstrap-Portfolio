@@ -1,0 +1,31 @@
+.main {
+    background-image: url("/images/michael-constantin-p-ODo9wEB8CnY-unsplash.jpg"); 
+    background-color: #074f57;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-blend-mode: multiply;
+    margin-bottom: -16px;
+ }
+
+ .avatar {
+    float:right;
+ }
+ .skills {
+    color:white;
+ }
+ .skills-list >li{
+    color:white;
+    background-color: transparent;
+ }
+.img-fluid {
+    max-width: 80%;
+}
+
+.container:first-child p{
+    color:white;
+}
+
+.container:first-child h1{
+    color: white;
+}
