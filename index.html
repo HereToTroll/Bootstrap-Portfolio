@@ -10,9 +10,9 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">Sergejs</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,13 +21,13 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#works">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#contact-me">Contact Me</a>
               </li>
             </ul>
           </div>
@@ -37,10 +37,10 @@
       <div class="container-fluid main">
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <img src="/images/avatar.jpg" alt="avatar" class="img-fluid my-3 avatar "/>
+            <img src="/images/avatar2.png" alt="avatar" class="img-fluid my-3 avatar "/>
           </div>
           <div class="col-md-6">
-            <div class="jumbotron jumbotron-fluid pt-5 bg-transparent">
+            <div class="jumbotron jumbotron-fluid pt-5 bg-transparent" id="about">
               <div class="container">
                 <h1 class="display-4">About Me</h1>
                 <p class="lead">Hi, my name is Sergeys based in England, Bedford. I love programming and tech stuff.  Currently learning front-end development. My goal is to get myself a job in the field. 
@@ -58,9 +58,9 @@
             </ul>
           </div>
         </div>
-        <div class="row my-3 justify-content-center works-row">
+        <div class="row my-3 justify-content-center works-row" id="works">
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -70,7 +70,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -80,7 +80,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -92,7 +92,7 @@
         </div>
         <div class="row my-3 works-row">
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -102,7 +102,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -112,7 +112,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card bg-secondary text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white" style="width: 18rem;">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -124,14 +124,14 @@
         </div>
       </div>
     </main>
-    <footer class="text-center text-white bg-secondary" >
+    <footer class="text-center text-white bg-dark" id="contact-me">
       <!-- Grid container -->
-      <div class="container pt-4">
+      <div class="container pt-2 pb-2">
         <!-- Section: Social media -->
         <section class="">
           <!-- Facebook -->
           <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            class="btn btn-link btn-floating btn-lg text-dark m-1 contact-links"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
@@ -140,25 +140,15 @@
     
           <!-- Twitter -->
           <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            class="btn btn-link btn-floating btn-lg text-dark m-1 contact-links"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="fab fa-twitter"></i
           ></a>
-    
-          <!-- Google -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-google"></i
-          ></a>
-    
           <!-- Instagram -->
           <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            class="btn btn-link btn-floating btn-lg text-dark m-1 contact-links"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
@@ -167,7 +157,7 @@
     
           <!-- Linkedin -->
           <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            class="btn btn-link btn-floating btn-lg text-dark m-1 contact-links"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
@@ -175,7 +165,7 @@
           ></a>
           <!-- Github -->
           <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            class="btn btn-link btn-floating btn-lg text-dark m-1 contact-links"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
