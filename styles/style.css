@@ -9,7 +9,7 @@ a:hover {
 
 
 .main {
-    background-image: url("/images/michael-constantin-p-ODo9wEB8CnY-unsplash.jpg"); 
+    background-image: url("../images/michael-constantin-p-ODo9wEB8CnY-unsplash.jpg"); 
     background-color: #074f57;
     background-size: cover;
     background-position: center; 
